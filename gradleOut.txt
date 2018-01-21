@@ -1,0 +1,878 @@
+localhost:kermitt2-grobid-0096de1 pm286$ ./gradlew clean install test
+
+> Task :grobid-core:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :grobid-core:mainJar
+The SimpleWorkResult type has been deprecated and is scheduled to be removed in Gradle 5.0. Please use WorkResults.didWork() instead.
+
+> Task :grobid-trainer:compileJava
+Note: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-trainer/src/main/java/org/grobid/trainer/TrainerFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.6/powermock-module-junit4-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-modules/1.6.6/powermock-modules-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock/1.6.6/powermock-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-easymock/1.6.6/powermock-api-easymock-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api/1.6.6/powermock-api-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.6/powermock-module-junit4-common-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.pom
+Download https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.6/powermock-module-junit4-1.6.6.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-easymock/1.6.6/powermock-api-easymock-1.6.6.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+Download https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.6/powermock-module-junit4-common-1.6.6.jar
+
+> Task :grobid-core:compileTestJava
+Note: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/src/test/java/org/grobid/core/utilities/TextUtilitiesTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+Download https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137.pom
+Download https://repo1.maven.org/maven2/org/jacoco/org.jacoco.build/0.7.1.201405082137/org.jacoco.build-0.7.1.201405082137.pom
+Download https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137.jar
+
+> Task :grobid-core:test
+objc[17732]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+
+org.grobid.core.annotations.AnnotationTest > testGetHeaderAnnotationEmpty STANDARD_ERROR
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+    WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.LibraryLoader load
+    INFO: Loading external native CRF library
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.LibraryLoader load
+    INFO: Loading Wapiti native library...
+    Jan 21, 2018 11:49:48 AM org.grobid.core.main.LibraryLoader load
+    INFO: Library crfpp loaded
+
+org.grobid.core.annotations.AnnotationTest > testGetHeaderAnnotationPatentItem STANDARD_ERROR
+    Jan 21, 2018 11:49:48 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not build a proper pointer with the input data. Paragraph=null, pointer=0, offset=0
+
+org.grobid.core.annotations.AnnotationTest > testGetHeaderAnnotationBibDataSet STANDARD_ERROR
+    Jan 21, 2018 11:49:48 AM org.grobid.core.lexicon.Lexicon initDictionary
+    INFO: Initiating dictionary
+    Jan 21, 2018 11:49:48 AM org.grobid.core.lexicon.Lexicon initDictionary
+    INFO: End of Initialization of dictionary
+    Jan 21, 2018 11:49:48 AM org.grobid.core.lexicon.Lexicon initNames
+    INFO: Initiating names
+    Jan 21, 2018 11:49:48 AM org.grobid.core.lexicon.Lexicon initNames
+    INFO: End of initialization of names
+    Jan 21, 2018 11:49:49 AM org.grobid.core.lexicon.Lexicon initCountryCodes
+    INFO: Initiating country codes
+    Jan 21, 2018 11:49:49 AM org.grobid.core.lexicon.Lexicon initCountryCodes
+    INFO: End of initialization of country codes
+    Jan 21, 2018 11:49:49 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not get the offset from BibDataSet.
+
+org.grobid.core.annotations.DescriptionTest > testGetPointerPatentItemReturnNull STANDARD_ERROR
+    Jan 21, 2018 11:49:49 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not build a proper pointer with the input data. Paragraph=null, pointer=10, offset=-10
+
+org.grobid.core.annotations.DescriptionTest > testGetPointerPatentBibDataSetNull2 STANDARD_ERROR
+    Jan 21, 2018 11:49:49 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not get the offset from BibDataSet.
+
+org.grobid.core.annotations.DescriptionTest > testGetPointerPatentBibDataSetNull3 STANDARD_ERROR
+    Jan 21, 2018 11:49:49 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not get the offset from BibDataSet.
+
+org.grobid.core.annotations.DescriptionTest > testGetPointerPatentBibDataSetNull4 STANDARD_ERROR
+    Jan 21, 2018 11:49:49 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not build a proper pointer with the input data. Paragraph=null, pointer=-1, offset=-1
+
+org.grobid.core.annotations.DescriptionTest > testGetPointerPatentBibDataSetNull STANDARD_ERROR
+    Jan 21, 2018 11:49:49 AM org.grobid.core.annotations.Description getPointer
+    SEVERE: Could not get the offset from BibDataSet.
+
+org.grobid.core.annotations.TeiStAXParserTest > testParseStartTEI STANDARD_ERROR
+    Jan 21, 2018 11:49:49 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti (size: 28374821)
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti"
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+
+org.grobid.core.annotations.TeiStAXParserTest > testParserOnFullTEI STANDARD_ERROR
+    Jan 21, 2018 11:49:57 AM org.grobid.core.jni.WapitiModel label
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti"
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+    Jan 21, 2018 11:49:57 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti (size: 28374821)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti"
+    Jan 21, 2018 11:50:01 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti (size: 16235248)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/name/header/model.wapiti"
+    Jan 21, 2018 11:50:16 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/name/header/model.wapiti (size: 2225578)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/name/header/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/name/citation/model.wapiti"
+    Jan 21, 2018 11:50:16 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/name/citation/model.wapiti (size: 393118)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/name/citation/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti"
+    Jan 21, 2018 11:50:16 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti (size: 102435)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+
+org.grobid.core.annotations.TeiStAXParserTest > testParseDescription STANDARD_ERROR
+    Jan 21, 2018 11:50:17 AM org.grobid.core.jni.WapitiModel label
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti"
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+    Jan 21, 2018 11:50:17 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti (size: 28374821)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+
+org.grobid.core.annotations.TeiStAXParserTest > testParseDescriptionTagInsideP STANDARD_ERROR
+    Jan 21, 2018 11:50:21 AM org.grobid.core.jni.WapitiModel label
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti"
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+    Jan 21, 2018 11:50:21 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti (size: 28374821)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+
+org.grobid.core.annotations.TeiStAXParserTest > testParseDescription2 STANDARD_ERROR
+    Jan 21, 2018 11:50:25 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti"
+    Jan 21, 2018 11:50:25 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti (size: 28374821)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+
+org.grobid.core.data.AuthorEmailAssignerTest > testEmailAssignment STANDARD_OUT
+    [Jalal Al-Muhtadi  (email:almuhtad@uiuc.edu), Manish Anand  (email:manand@uiuc.edu), M. Dennis Mickunas, Roy Campbell
+
+org.grobid.core.document.TEIFormatterTest > testRegex STANDARD_OUT
+    (\[|\()((\d)+(\w)?(\-\d+\w?)?,\s?)+(\d+\w?)(\-\d+\w?)?(\)|\])
+    Done
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > extractAllReferencesStringArticles2 STANDARD_ERROR
+    Jan 21, 2018 11:50:29 AM org.grobid.core.jni.WapitiModel label
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti"
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+    Jan 21, 2018 11:50:29 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti (size: 28374821)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/patent/all/model.wapiti
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles2
+    INFO: BibDataSet: [BibDataSet [resBib=BiblioItem{submission_date='null', languageUtilities=org.grobid.core.utilities.LanguageUtilities@c8b7e36, item=-1, parentItem=null, ISBN13='null', ISBN10='null', title='That article It refers to Economic Development Quarterly', publisher='null', nbPages=-1, edition='null', language='null', subtitle='null', publication_date='November 2011', normalized_publication_date=11-2011 / November-2011, editors='null', publisher_website='null', serie='null', ISSN='null', ISSNe='null', volume='null', number='null', month='null', support_type='null', version='null', smallImageURL='null', largeImageURL='null', publisherPlace='null', review='null', keywords=null, subjects=null, categories='null', type='null', typeDescription='null', book_type='null', DOI='null', arXivId='null', inDOI='null', abstract_='null', authors='null', location='null', bookTitle='null', serieTitle='null', pageRange='353--365', journal='null', volumeBlock='25', institution='null', note='null', affiliation='null', address='null', country='null', town='null', email='null', pubnum='null', keyword='null', phone='null', degree='null', web='null', issue='null', journal_abbrev='null', event='null', abstractHeader='null', day='null', locationPublisher='null', dedication='null', submission='null', english_title='null', url='null', uri='null', confidence='null', conf=0.0, e_year='null', e_month='null', e_day='null', s_year='null', s_month='null', s_day='null', a_year='null', a_month='null', a_day='null', authorList=null, editorList=null, affiliationList=null, addressList=null, emailList=null, webList=null, phoneList=null, markers=null, fullAuthors=null, fullEditors=null, fullAffiliations=null, reference='null', copyright='null', grant='null', affiliationAddressBlock='null', articleTitle='null', beginPage=353, endPage=365, year='null', authorString='null', path='', collaboration='null', postProcessEditors=false, crossrefError=true, normalized_submission_date=null, originalAffiliation='null', originalAbstract='null', originalTitle='null', originalAuthors='null', originalAddress='null', originalNote='null', originalKeyword='null', originalVolumeBlock='null', originalJournal='null'}, sourceBib=null, refSymbol=null, rawBib=That article It refers to Economic Development Quarterly November 2011 25: 353-365, confidence=1.0, offsets=[0]]]
+    That   count=1   charCpt=4
+        count=1   charCpt=5
+    article   count=2   charCpt=12
+        count=2   charCpt=13
+    It   count=3   charCpt=15
+        count=3   charCpt=16
+    refers   count=4   charCpt=22
+        count=4   charCpt=23
+    to   count=5   charCpt=25
+        count=5   charCpt=26
+    Economic   count=6   charCpt=34
+        count=6   charCpt=35
+    Development   count=7   charCpt=46
+        count=7   charCpt=47
+    Quarterly   count=8   charCpt=56
+        count=8   charCpt=57
+    November   count=9   charCpt=65
+        count=9   charCpt=66
+    2011   count=10   charCpt=70
+        count=10   charCpt=71
+    25   count=11   charCpt=73
+    :   count=12   charCpt=74
+        count=12   charCpt=75
+    353   count=13   charCpt=78
+    -   count=14   charCpt=79
+    365   count=15   charCpt=82
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > extractAllReferencesStringArticles2 STANDARD_OUT
+    RawBib=That article It refers to Economic Development Quarterly November 2011 25: 353-365
+    Start=0   offset=15   end=15
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > extractAllReferencesStringArticles2 STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles2
+    INFO: [0]
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > extractAllReferencesStringArticles STANDARD_OUT
+    0 seconds 16 milliseconds
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > extractAllReferencesStringArticles STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles
+    INFO: BibDataSet: [BibDataSet [resBib=BiblioItem{submission_date='null', languageUtilities=org.grobid.core.utilities.LanguageUtilities@c8b7e36, item=-1, parentItem=null, ISBN13='null', ISBN10='null', title='That article refers to Economic Development Quarterly', publisher='null', nbPages=-1, edition='null', language='null', subtitle='null', publication_date='November 2011', normalized_publication_date=11-2011 / November-2011, editors='null', publisher_website='null', serie='null', ISSN='null', ISSNe='null', volume='null', number='null', month='null', support_type='null', version='null', smallImageURL='null', largeImageURL='null', publisherPlace='null', review='null', keywords=null, subjects=null, categories='null', type='null', typeDescription='null', book_type='null', DOI='null', arXivId='null', inDOI='null', abstract_='null', authors='null', location='null', bookTitle='null', serieTitle='null', pageRange='353--365', journal='null', volumeBlock='25', institution='null', note='null', affiliation='null', address='null', country='null', town='null', email='null', pubnum='null', keyword='null', phone='null', degree='null', web='null', issue='null', journal_abbrev='null', event='null', abstractHeader='null', day='null', locationPublisher='null', dedication='null', submission='null', english_title='null', url='null', uri='null', confidence='null', conf=0.0, e_year='null', e_month='null', e_day='null', s_year='null', s_month='null', s_day='null', a_year='null', a_month='null', a_day='null', authorList=null, editorList=null, affiliationList=null, addressList=null, emailList=null, webList=null, phoneList=null, markers=null, fullAuthors=null, fullEditors=null, fullAffiliations=null, reference='null', copyright='null', grant='null', affiliationAddressBlock='null', articleTitle='null', beginPage=353, endPage=365, year='null', authorString='null', path='', collaboration='null', postProcessEditors=false, crossrefError=true, normalized_submission_date=null, originalAffiliation='null', originalAbstract='null', originalTitle='null', originalAuthors='null', originalAddress='null', originalNote='null', originalKeyword='null', originalVolumeBlock='null', originalJournal='null'}, sourceBib=null, refSymbol=null, rawBib= That article refers to Economic Development Quarterly November 2011 25: 353-365, confidence=1.0, offsets=[167]]]
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles
+    INFO: [167]
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > zhProcessing STANDARD_OUT
+    在本申请的申请人于2008年8月26日提交的申请号为US2008/001534的PCT国际申请中，揭示了一种等截面三角形定向棱镜圆形反光板及由其制成的圆板灯。该圆板灯包括：等截面三角形微棱镜圆形导光板；围绕导光板的散热框，该散热框与导光板之间形成间隙而构成环形灯槽；以及嵌装于环形灯槽内的环形灯组件，该环形灯组件由多个发光二极管(LED)贴片、电阻和线路板构成。该申请的全部内容，通过引用结合于此。
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > zhProcessing STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest zhProcessing
+    INFO: PatentItem: [PatentItem [authority=US, number_wysiwyg=2008001534, number_epodoc=2008001534, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=28, offset_end=38, offset_raw=0, context=US2008/001534]]
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > krProcessing STANDARD_OUT
+    미국의 애플사의 미국 출원 2012/012710.
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > krProcessing STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest krProcessing
+    INFO: PatentItem: [PatentItem [authority=US, number_wysiwyg=2012012710, number_epodoc=2012012710, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=15, offset_end=25, offset_raw=0, context=미국의 애플사의 미국 출원 2012/012710]]
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > jaProcessing STANDARD_OUT
+    すなわち、相対的な頻度で、エポキシドをベースとする液体接着剤及び接着結合剤が、例えばＷＯ９８／２１２８７Ａ１。これらの主な使用分野は、硬質装置のみならず適度に柔軟な装置における縁部の結合である。硬化は、熱により又はＵＶ照射により行われる。
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > jaProcessing STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest jaProcessing
+    INFO: PatentItem: [PatentItem [authority=WO, number_wysiwyg=21287, number_epodoc=21287, kindCode=A1, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=47, offset_end=53, offset_raw=0, context=WO98／21287A1]]
+
+org.grobid.core.engines.patent.ReferenceExtractorTest > extractAllReferencesXmlST36 STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesXmlST36
+    INFO: PatentItem: [PatentItem [authority=WO, number_wysiwyg=09937368, number_epodoc=9937368, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=456, offset_end=463, offset_raw=0, context= WO 09937368], PatentItem [authority=US, number_wysiwyg=6083121, number_epodoc=6083121, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=548, offset_end=554, offset_raw=0, context= US 6083121]]
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/segmentation/model.wapiti"
+
+org.grobid.core.engines.SegmentationTest > testPrepareDocument_SimpleDocument_shouldWork STANDARD_ERROR
+    Jan 21, 2018 11:50:33 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/segmentation/model.wapiti (size: 15807193)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/segmentation/model.wapiti
+
+org.grobid.core.GrobidModelsTest > testGrobidModelsEnum_CustomModel STANDARD_ERROR
+    Jan 21, 2018 11:50:36 AM org.grobid.core.GrobidModels$1 getModelPath
+    WARNING: The file path to the myDreamModel model is invalid: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/myDreamModel/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti"
+
+org.grobid.core.test.TestAffiliationAddressParser > testParser2 STANDARD_ERROR
+    Jan 21, 2018 11:50:41 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti (size: 2646298)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/reference-segmenter/model.wapiti"
+
+org.grobid.core.test.TestCitationParser > processingReferenceSection STANDARD_ERROR
+    Jan 21, 2018 11:50:42 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/reference-segmenter/model.wapiti (size: 4829569)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/reference-segmenter/model.wapiti
+
+org.grobid.core.test.TestCitationPatentParser > testCitationPatentParserFromText STANDARD_OUT
+    text to parse: this patent refers to US-8303618,    and filed in continuation of US patent 8153667 and  European Patent publications 1000000 and    1000001. 
+    context= US-8303618,  and filed in continuation
+    offset start/end/raw=25/34/0
+    corresponding span: 8303618,        
+    context= US patent 8153667
+    offset start/end/raw=74/80/0
+    corresponding span: 8153667
+    context=  European Patent publications 1000000 and    1000001
+    offset start/end/raw=116/123/0
+    corresponding span: 1000000 
+    context=  European Patent publications 1000000 and    1000001
+    offset start/end/raw=131/137/0
+    corresponding span: 1000001
+
+org.grobid.core.test.TestDate > testDateParser_inputWithSpaces STANDARD_ERROR
+    Jan 21, 2018 11:50:43 AM org.grobid.core.jni.WapitiModel label
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti"
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+    Jan 21, 2018 11:50:43 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti (size: 102435)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/fulltext/model.wapiti"
+
+org.grobid.core.test.TestFullTextParser > testFullTextParser STANDARD_ERROR
+    Jan 21, 2018 11:50:43 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/fulltext/model.wapiti (size: 20462507)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/fulltext/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/figure/model.wapiti"
+    Jan 21, 2018 11:50:47 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/figure/model.wapiti (size: 679648)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/figure/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/table/model.wapiti"
+    Jan 21, 2018 11:50:47 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/table/model.wapiti (size: 1337339)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/table/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti"
+    Jan 21, 2018 11:50:47 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti (size: 36094028)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti"
+    Jan 21, 2018 11:50:53 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti
+    Jan 21, 2018 11:50:53 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti (size: 2646298)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti
+    Jan 21, 2018 11:50:54 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=Information Synthesis for Answer Validation,rows=5,query.author=Wang): New request in the pool
+    Jan 21, 2018 11:50:54 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 1
+    Jan 21, 2018 11:50:54 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=Information Synthesis for Answer Validation,rows=5,query.author=Wang): .. executing
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti"
+    Jan 21, 2018 11:50:54 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti
+    Jan 21, 2018 11:50:54 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti (size: 16235248)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti
+    Jan 21, 2018 11:50:56 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti"
+    Jan 21, 2018 11:50:56 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti (size: 102435)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+    Jan 21, 2018 11:50:58 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=GE98 Ability of different obturation techniques to fill canal irregularities using gutta-percha and RealSeal,rows=5,query.author=S1): New request in the pool
+    Jan 21, 2018 11:50:58 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 25
+    Jan 21, 2018 11:50:58 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=GE98 Ability of different obturation techniques to fill canal irregularities using gutta-percha and RealSeal,rows=5,query.author=S1): .. executing
+    Jan 21, 2018 11:51:01 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=TIMP: An R Package for Modeling Multi-way Spectroscopic Measurements,rows=5,query.author=Mullen): New request in the pool
+    Jan 21, 2018 11:51:01 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 25
+    Jan 21, 2018 11:51:01 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=TIMP: An R Package for Modeling Multi-way Spectroscopic Measurements,rows=5,query.author=Mullen): .. executing
+    Jan 21, 2018 11:51:02 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=Ultra light bosonic dark matter and CMB,rows=5,query.author=Rodriguez Montoya): New request in the pool
+    Jan 21, 2018 11:51:02 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 25
+    Jan 21, 2018 11:51:02 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=Ultra light bosonic dark matter and CMB,rows=5,query.author=Rodriguez Montoya): .. executing
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=MAGNETO-PHOTOLUMINESCENCE AS A PROBE OF PHASES IN QUANTUM HALL MULTI-LAYERS References: SL QW 0,rows=5,query.author=Shevchenko): New request in the pool
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 25
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=MAGNETO-PHOTOLUMINESCENCE AS A PROBE OF PHASES IN QUANTUM HALL MULTI-LAYERS References: SL QW 0,rows=5,query.author=Shevchenko): .. executing
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=COHERENCE PROPERTIES OF QUANTUM DOT RESONANCE FLUORESCENCE,rows=5,query.author=Matthiesen): New request in the pool
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 1, still available: 24
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=COHERENCE PROPERTIES OF QUANTUM DOT RESONANCE FLUORESCENCE,rows=5,query.author=Matthiesen): .. executing
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/10.1063/1.3558920񮽙 (): New request in the pool
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 2, still available: 23
+    Jan 21, 2018 11:51:03 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/10.1063/1.3558920񮽙 (): .. executing
+    Jan 21, 2018 11:51:04 AM org.grobid.core.utilities.Consolidation consolidateCrossrefGetByDOI
+    INFO: Success request 10.1063/1.3558920񮽙
+    Jan 21, 2018 11:51:05 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=the eijde,rows=5,query.author=Spoelder): New request in the pool
+    Jan 21, 2018 11:51:05 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 25
+    Jan 21, 2018 11:51:05 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/ (,query.title=the eijde,rows=5,query.author=Spoelder): .. executing
+
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti"
+org.grobid.core.test.TestHeaderParser > testHeaderHeader STANDARD_ERROR
+    Jan 21, 2018 11:51:07 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti
+    Jan 21, 2018 11:51:07 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti (size: 36094028)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/header/model.wapiti
+    Jan 21, 2018 11:51:12 AM org.grobid.core.jni.WapitiModel label
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti"
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti
+    Jan 21, 2018 11:51:12 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti (size: 2646298)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/affiliation-address/model.wapiti
+    Jan 21, 2018 11:51:12 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti"
+    Jan 21, 2018 11:51:12 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti (size: 16235248)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/citation/model.wapiti
+    Jan 21, 2018 11:51:15 AM org.grobid.core.jni.WapitiModel label
+    WARNING: Model has been already closed, reopening: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+    Jan 21, 2018 11:51:15 AM org.grobid.core.jni.WapitiModel init
+    INFO: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti (size: 102435)
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti"
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/models/date/model.wapiti
+    Jan 21, 2018 11:51:15 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/10.1002/zaac.200700576 (): New request in the pool
+    Jan 21, 2018 11:51:15 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: timedSemaphore acquire... current total: 0, still available: 25
+    Jan 21, 2018 11:51:15 AM org.grobid.core.utilities.crossref.CrossrefClient printLog
+    INFO: works/10.1002/zaac.200700576 (): .. executing
+    Jan 21, 2018 11:51:16 AM org.grobid.core.utilities.Consolidation consolidateCrossrefGetByDOI
+    INFO: Success request 10.1002/zaac.200700576
+
+org.grobid.core.utilities.GrobidHomeFinderTest > testNoDefaultLocations STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+    WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+    WARNING: Attempting to find and in the classpath...
+
+org.grobid.core.utilities.GrobidHomeFinderTest > testViaProp STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+
+org.grobid.core.utilities.GrobidPropertiesTest > testLoadGrobidProperties_PathNoContext_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetgetCrossrefHost STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetgetCrossrefPort STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetgetProxyHost STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetgetProxyPort STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetisUseLanguageId STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testgetsetCrossrefId STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testSet_GROBID_HOME_PATH_FileNotExisting_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testgetsetNativeLibraryPath STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testSetGrobidProperties_NullPath_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testGetVersion_shouldWork STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testGetTempPath STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testLoadGrobidPropertiesPath STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testloadPdf2XMLPath_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetisResourcesInHome STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetgetCrossrefPw STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testCheckPropertiesException_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testgetLanguageDetectorFactory2_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testNativeLibraryPath STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testSet_GROBID_HOME_PATH_NullPath_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testinitException2_shouldThrowException STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testsetgetNBThreads STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testgetLanguageDetectorFactory STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testgetPdf2XMLPath STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testGetInstance STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.GrobidPropertiesTest > testSetGrobidProperties_PathFileNotExisting STANDARD_ERROR
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: *** USING GROBID HOME: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+    WARNING: ***************************************************************
+    Jan 21, 2018 11:51:18 AM org.grobid.core.main.GrobidHomeFinder findGrobidPropertiesOrFail
+    WARNING: Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-core/../grobid-home/config/grobid.properties
+
+org.grobid.core.utilities.XMLWriterTest > temp STANDARD_OUT
+    <?xml version="1.0" encoding="UTF-8"?>
+    <test>some test</test>
+
+    <test>some test</test>
+
+
+org.grobid.core.utilities.XMLWriterTest > testFullTagCreation STANDARD_OUT
+    <someTag att1="val1" att2="val2" att3="val3">
+       <second>Some Content</second>
+       <second attr="val">bla bla</second>
+    </someTag>
+
+
+> Task :grobid-service:compileTestJava
+Note: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-service/src/test/java/org/grobid/service/process/GrobidRestProcessFilesTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :grobid-service:test
+objc[17777]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+
+org.grobid.service.tests.GrobidRestServiceTest STANDARD_OUT
+    INFO  [2018-01-21 11:51:25,187] org.eclipse.jetty.util.log: Logging initialized @3846ms
+    INFO  [2018-01-21 11:51:25,343] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+    INFO  [2018-01-21 11:51:25,343] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+    INFO  [2018-01-21 11:51:25,346] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: grobidAssets for path /*
+    INFO  [2018-01-21 11:51:25,779] org.grobid.service.GrobidRestService: Initiating Servlet GrobidRestService
+    INFO  [2018-01-21 11:51:25,784] org.grobid.core.main.LibraryLoader: Loading external native CRF library
+    INFO  [2018-01-21 11:51:25,785] org.grobid.core.main.LibraryLoader: Loading Wapiti native library...
+    INFO  [2018-01-21 11:51:25,786] org.grobid.core.main.LibraryLoader: Library crfpp loaded
+    INFO  [2018-01-21 11:51:25,790] org.grobid.core.lexicon.Lexicon: Initiating dictionary
+    INFO  [2018-01-21 11:51:25,790] org.grobid.core.lexicon.Lexicon: End of Initialization of dictionary
+    INFO  [2018-01-21 11:51:25,790] org.grobid.core.lexicon.Lexicon: Initiating names
+    INFO  [2018-01-21 11:51:25,790] org.grobid.core.lexicon.Lexicon: End of initialization of names
+    INFO  [2018-01-21 11:51:26,222] org.grobid.core.lexicon.Lexicon: Initiating country codes
+    INFO  [2018-01-21 11:51:26,222] org.grobid.core.lexicon.Lexicon: End of initialization of country codes
+    INFO  [2018-01-21 11:51:26,346] org.grobid.service.GrobidRestService: Initiating of Servlet GrobidRestService finished.
+    INFO  [2018-01-21 11:51:26,358] com.hubspot.dropwizard.guicier.DropwizardModule: Registering org.grobid.service.resources.HealthResource as a root resource class
+    INFO  [2018-01-21 11:51:26,358] com.hubspot.dropwizard.guicier.DropwizardModule: Registering org.grobid.service.GrobidRestService as a root resource class
+    INFO  [2018-01-21 11:51:26,359] com.hubspot.dropwizard.guicier.DropwizardModule: Registering org.grobid.service.exceptions.mapper.GrobidServiceExceptionMapper as a provider class
+    INFO  [2018-01-21 11:51:26,359] com.hubspot.dropwizard.guicier.DropwizardModule: Registering org.grobid.service.exceptions.mapper.GrobidExceptionsTranslationUtility as a provider class
+    INFO  [2018-01-21 11:51:26,359] com.hubspot.dropwizard.guicier.DropwizardModule: Registering org.grobid.service.exceptions.mapper.GrobidExceptionMapper as a provider class
+    INFO  [2018-01-21 11:51:26,359] com.hubspot.dropwizard.guicier.DropwizardModule: Registering org.grobid.service.exceptions.mapper.WebApplicationExceptionMapper as a provider class
+    INFO  [2018-01-21 11:51:26,359] com.hubspot.dropwizard.guicier.DropwizardModule: Added guice injected health check: org.grobid.service.resources.HealthResource
+    INFO  [2018-01-21 11:51:26,362] org.grobid.service.main.GrobidServiceApplication: Service config=GrobidServiceConfiguration{server=DefaultServerFactory{applicationConnectors=[io.dropwizard.jetty.HttpConnectorFactory@385f5f03], adminConnectors=[io.dropwizard.jetty.HttpConnectorFactory@447322cc], adminMaxThreads=64, adminMinThreads=1, applicationContextPath=/, adminContextPath=/}, logging=DefaultLoggingFactory{level=INFO, loggers={org.apache.pdfbox.pdmodel.font.PDSimpleFont="OFF"}, appenders=[io.dropwizard.logging.ConsoleAppenderFactory@5a0b3ba5]}, metrics=MetricsFactory{frequency=1 minute, reporters=[]}}
+    INFO  [2018-01-21 11:51:26,364] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+    INFO  [2018-01-21 11:51:26,364] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+    INFO  [2018-01-21 11:51:26,373] io.dropwizard.server.ServerFactory: Starting grobid-service
+
+     _______  _______  _______  ______  _________ ______     _______  _______  _______          _________ _______  _______
+    (  ____ \(  ____ )(  ___  )(  ___ \ \__   __/(  __  \   (  ____ \(  ____ \(  ____ )|\     /|\__   __/(  ____ \(  ____ \
+    | (    \/| (    )|| (   ) || (   ) )   ) (   | (  \  )  | (    \/| (    \/| (    )|| )   ( |   ) (   | (    \/| (    \/
+    | |      | (____)|| |   | || (__/ /    | |   | |   ) |  | (_____ | (__    | (____)|| |   | |   | |   | |      | (__
+    | | ____ |     __)| |   | ||  __ (     | |   | |   | |  (_____  )|  __)   |     __)( (   ) )   | |   | |      |  __)
+    | | \_  )| (\ (   | |   | || (  \ \    | |   | |   ) |        ) || (      | (\ (    \ \_/ /    | |   | |      | (
+    | (___) || ) \ \__| (___) || )___) )___) (___| (__/  )  /\____) || (____/\| ) \ \__  \   /  ___) (___| (____/\| (____/\
+    (_______)|/   \__/(_______)|/ \___/ \_______/(______/   \_______)(_______/|/   \__/   \_/   \_______/(_______/(_______/
+
+
+    INFO  [2018-01-21 11:51:26,486] org.eclipse.jetty.setuid.SetUIDListener: Opened application@611cdd81{HTTP/1.1,[http/1.1]}{0.0.0.0:8075}
+    INFO  [2018-01-21 11:51:26,486] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@9880e6{HTTP/1.1,[http/1.1]}{0.0.0.0:8076}
+    INFO  [2018-01-21 11:51:26,488] org.eclipse.jetty.server.Server: jetty-9.3.9.v20160517
+    WARN  [2018-01-21 11:51:26,977] org.glassfish.jersey.internal.inject.Providers: A provider org.grobid.service.exceptions.mapper.GrobidExceptionsTranslationUtility registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.grobid.service.exceptions.mapper.GrobidExceptionsTranslationUtility will be ignored. 
+    INFO  [2018-01-21 11:51:27,369] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+        GET     /api/admin (org.grobid.service.GrobidRestService)
+        POST    /api/admin (org.grobid.service.GrobidRestService)
+        GET     /api/allProperties (org.grobid.service.GrobidRestService)
+        POST    /api/allProperties (org.grobid.service.GrobidRestService)
+        POST    /api/annotatePDF (org.grobid.service.GrobidRestService)
+        GET     /api/changePropertyValue (org.grobid.service.GrobidRestService)
+        POST    /api/changePropertyValue (org.grobid.service.GrobidRestService)
+        POST    /api/citationPatentAnnotations (org.grobid.service.GrobidRestService)
+        GET     /api/grobid (org.grobid.service.GrobidRestService)
+        GET     /api/health (org.grobid.service.resources.HealthResource)
+        GET     /api/isalive (org.grobid.service.GrobidRestService)
+        POST    /api/processAffiliations (org.grobid.service.GrobidRestService)
+        PUT     /api/processAffiliations (org.grobid.service.GrobidRestService)
+        POST    /api/processCitation (org.grobid.service.GrobidRestService)
+        PUT     /api/processCitation (org.grobid.service.GrobidRestService)
+        POST    /api/processCitationNames (org.grobid.service.GrobidRestService)
+        PUT     /api/processCitationNames (org.grobid.service.GrobidRestService)
+        POST    /api/processCitationPatentPDF (org.grobid.service.GrobidRestService)
+        POST    /api/processCitationPatentST36 (org.grobid.service.GrobidRestService)
+        POST    /api/processCitationPatentTEI (org.grobid.service.GrobidRestService)
+        POST    /api/processCitationPatentTXT (org.grobid.service.GrobidRestService)
+        POST    /api/processDate (org.grobid.service.GrobidRestService)
+        PUT     /api/processDate (org.grobid.service.GrobidRestService)
+        POST    /api/processFulltextAssetDocument (org.grobid.service.GrobidRestService)
+        PUT     /api/processFulltextAssetDocument (org.grobid.service.GrobidRestService)
+        POST    /api/processFulltextDocument (org.grobid.service.GrobidRestService)
+        PUT     /api/processFulltextDocument (org.grobid.service.GrobidRestService)
+        POST    /api/processHeaderDocument (org.grobid.service.GrobidRestService)
+        PUT     /api/processHeaderDocument (org.grobid.service.GrobidRestService)
+        POST    /api/processHeaderNames (org.grobid.service.GrobidRestService)
+        PUT     /api/processHeaderNames (org.grobid.service.GrobidRestService)
+        POST    /api/processReferences (org.grobid.service.GrobidRestService)
+        PUT     /api/processReferences (org.grobid.service.GrobidRestService)
+        POST    /api/referenceAnnotations (org.grobid.service.GrobidRestService)
+        GET     /api/sha1 (org.grobid.service.GrobidRestService)
+        POST    /api/sha1 (org.grobid.service.GrobidRestService)
+        GET     /api/version (org.grobid.service.GrobidRestService)
+
+    INFO  [2018-01-21 11:51:27,373] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@7dd58667{/,null,AVAILABLE}
+    INFO  [2018-01-21 11:51:27,377] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+        POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+        POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+    INFO  [2018-01-21 11:51:27,384] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@13e54642{/,null,AVAILABLE}
+    INFO  [2018-01-21 11:51:27,391] org.eclipse.jetty.server.AbstractConnector: Started application@611cdd81{HTTP/1.1,[http/1.1]}{0.0.0.0:8075}
+    INFO  [2018-01-21 11:51:27,392] org.eclipse.jetty.server.AbstractConnector: Started admin@9880e6{HTTP/1.1,[http/1.1]}{0.0.0.0:8076}
+    INFO  [2018-01-21 11:51:27,392] org.eclipse.jetty.server.Server: Started @6054ms
+
+org.grobid.service.tests.GrobidRestServiceTest > testFullyRestLessHeaderDocument STANDARD_OUT
+    INFO  [2018-01-21 11:51:27,831] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/header/model.wapiti (size: 36094028)
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/header/model.wapiti"
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/header/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/name/header/model.wapiti"
+    INFO  [2018-01-21 11:51:33,578] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/name/header/model.wapiti (size: 2225578)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/name/header/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/name/citation/model.wapiti"
+    INFO  [2018-01-21 11:51:33,808] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/name/citation/model.wapiti (size: 393118)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/name/citation/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/affiliation-address/model.wapiti"
+    INFO  [2018-01-21 11:51:33,892] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/affiliation-address/model.wapiti (size: 2646298)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/affiliation-address/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/citation/model.wapiti"
+    INFO  [2018-01-21 11:51:35,974] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/citation/model.wapiti (size: 16235248)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/date/model.wapiti"
+    INFO  [2018-01-21 11:51:51,334] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/date/model.wapiti (size: 102435)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/date/model.wapiti
+
+org.grobid.service.tests.GrobidRestServiceTest > testFullyRestLessFulltextDocument STANDARD_OUT
+    127.0.0.1 - - [21/Jan/2018:11:51:51 +0000] "POST /api/processHeaderDocument HTTP/1.1" 200 7967 "-" "Jersey/2.23.1 (HttpUrlConnection 1.8.0_60)" 23752
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/fulltext/model.wapiti"
+    INFO  [2018-01-21 11:51:51,472] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/fulltext/model.wapiti (size: 20462507)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/fulltext/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/segmentation/model.wapiti"
+    INFO  [2018-01-21 11:51:54,308] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/segmentation/model.wapiti (size: 15807193)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/segmentation/model.wapit
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/figure/model.wapiti"
+    INFO  [2018-01-21 11:51:57,436] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/figure/model.wapiti (size: 679648)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/figure/model.wapiti
+[Wapiti] Loading model: "/Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/reference-segmenter/model.wapiti"
+    INFO  [2018-01-21 11:51:57,747] org.grobid.core.jni.WapitiModel: Loading model: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/reference-segmenter/model.wapiti (size: 4829569)
+Model path: /Users/pm286/workspace/cmdev/grobid-0.5.0/kermitt2-grobid-0096de1/grobid-home/models/reference-segmenter/model.wapiti
+
+org.grobid.service.tests.GrobidRestServiceTest > testRestAffiliations STANDARD_OUT
+    127.0.0.1 - - [21/Jan/2018:11:51:59 +0000] "POST /api/processFulltextDocument HTTP/1.1" 200 54725 "-" "Jersey/2.23.1 (HttpUrlConnection 1.8.0_60)" 7587
+
+org.grobid.service.tests.GrobidRestServiceTest STANDARD_OUT
+    127.0.0.1 - - [21/Jan/2018:11:51:59 +0000] "POST /api/processAffiliations HTTP/1.1" 200 488 "-" "Jersey/2.23.1 (HttpUrlConnection 1.8.0_60)" 10
+
+org.grobid.service.tests.GrobidRestServiceTest > testRestNamesHeader STANDARD_OUT
+    127.0.0.1 - - [21/Jan/2018:11:51:59 +0000] "POST /api/processCitationNames HTTP/1.1" 200 243 "-" "Jersey/2.23.1 (HttpUrlConnection 1.8.0_60)" 5
+
+org.grobid.service.tests.GrobidRestServiceTest STANDARD_OUT
+    127.0.0.1 - - [21/Jan/2018:11:51:59 +0000] "POST /api/processHeaderNames HTTP/1.1" 200 506 "-" "Jersey/2.23.1 (HttpUrlConnection 1.8.0_60)" 8
+    127.0.0.1 - - [21/Jan/2018:11:51:59 +0000] "POST /api/processDate HTTP/1.1" 200 26 "-" "Jersey/2.23.1 (HttpUrlConnection 1.8.0_60)" 2
+    INFO  [2018-01-21 11:51:59,180] org.eclipse.jetty.server.AbstractConnector: Stopped application@611cdd81{HTTP/1.1,[http/1.1]}{0.0.0.0:8075}
+    INFO  [2018-01-21 11:51:59,181] org.eclipse.jetty.server.AbstractConnector: Stopped admin@9880e6{HTTP/1.1,[http/1.1]}{0.0.0.0:8076}
+    INFO  [2018-01-21 11:51:59,183] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@13e54642{/,null,UNAVAILABLE}
+    INFO  [2018-01-21 11:51:59,187] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@7dd58667{/,null,UNAVAILABLE}
+
+> Task :grobid-trainer:test
+objc[17784]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+
+
+BUILD SUCCESSFUL in 3m 35s
+37 actionable tasks: 37 executed
+localhost:kermitt2-grobid-0096de1 pm286$ 
+
+
+
